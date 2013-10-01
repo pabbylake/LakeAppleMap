@@ -10,4 +10,6 @@
 
 @interface ZS_TestViewController : UIViewController
 
+
+@property (weak,atomic)IBOutlet UILabel * kelvin;
 @end
