@@ -19,6 +19,7 @@
 		2136DA8417F3646900E3FF57 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2136DA8217F3646900E3FF57 /* MainStoryboard.storyboard */; };
 		2136DA8717F3646900E3FF57 /* LakeAppleMapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2136DA8617F3646900E3FF57 /* LakeAppleMapViewController.m */; };
 		2136DA8E17F364D700E3FF57 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2136DA8D17F364D700E3FF57 /* MapKit.framework */; };
+		921328CC17FAFD1B00992461 /* ZS_TestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 921328CB17FAFD1B00992461 /* ZS_TestViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -39,6 +40,8 @@
 		2136DA8517F3646900E3FF57 /* LakeAppleMapViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LakeAppleMapViewController.h; sourceTree = "<group>"; };
 		2136DA8617F3646900E3FF57 /* LakeAppleMapViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LakeAppleMapViewController.m; sourceTree = "<group>"; };
 		2136DA8D17F364D700E3FF57 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		921328CA17FAFD1B00992461 /* ZS_TestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZS_TestViewController.h; sourceTree = "<group>"; };
+		921328CB17FAFD1B00992461 /* ZS_TestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZS_TestViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,6 +96,8 @@
 				2136DA8517F3646900E3FF57 /* LakeAppleMapViewController.h */,
 				2136DA8617F3646900E3FF57 /* LakeAppleMapViewController.m */,
 				2136DA7117F3646900E3FF57 /* Supporting Files */,
+				921328CA17FAFD1B00992461 /* ZS_TestViewController.h */,
+				921328CB17FAFD1B00992461 /* ZS_TestViewController.m */,
 			);
 			path = LakeAppleMap;
 			sourceTree = "<group>";
@@ -181,6 +186,7 @@
 				2136DA7717F3646900E3FF57 /* main.m in Sources */,
 				2136DA7B17F3646900E3FF57 /* LakeAppleMapAppDelegate.m in Sources */,
 				2136DA8717F3646900E3FF57 /* LakeAppleMapViewController.m in Sources */,
+				921328CC17FAFD1B00992461 /* ZS_TestViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -303,6 +309,7 @@
 				2136DA8C17F3646900E3FF57 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
