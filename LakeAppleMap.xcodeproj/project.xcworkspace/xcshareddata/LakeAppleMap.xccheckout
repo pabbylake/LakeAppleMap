@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>7311D080-59A1-4C98-8932-DA0CACB7F03C</string>
+	<key>IDESourceControlProjectName</key>
+	<string>LakeAppleMap</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>04ED048D-AC68-4579-982B-1DE72D898B79</key>
+		<string>https://github.com/pabbylake/LakeAppleMap.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>LakeAppleMap.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>04ED048D-AC68-4579-982B-1DE72D898B79</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/pabbylake/LakeAppleMap.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>04ED048D-AC68-4579-982B-1DE72D898B79</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>04ED048D-AC68-4579-982B-1DE72D898B79</string>
+			<key>IDESourceControlWCCName</key>
+			<string>LakeAppleMap</string>
+		</dict>
+	</array>
+</dict>
+</plist>

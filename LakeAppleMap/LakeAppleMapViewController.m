@@ -41,8 +41,8 @@
 -(void)viewWillAppear:(BOOL)animated
 {
     CLLocationCoordinate2D zoomLocation;
-     zoomLocation.latitude = -33.86;
-    zoomLocation.longitude =  151.20;
+     zoomLocation.latitude = -63.86;
+    zoomLocation.longitude =  101.20;
     
     
     MKCoordinateRegion viewRegion =
