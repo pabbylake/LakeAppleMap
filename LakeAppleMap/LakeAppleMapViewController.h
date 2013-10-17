@@ -12,6 +12,4 @@
 
 @interface LakeAppleMapViewController : UIViewController<UITextFieldDelegate>
 @property (weak, nonatomic) IBOutlet MKMapView *mapView;
-@property (weak, nonatomic) IBOutlet UITextField *text;
-
 @end

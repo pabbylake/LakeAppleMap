@@ -12,31 +12,18 @@
                         <rect key="frame" x="0.0" y="20" width="320" height="548"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" showsUserLocation="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Lj3-cO-2Ds">
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="358" id="JlE-Pl-2Y1"/>
-                                </constraints>
-                            </mapView>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="7Wb-oA-BvL">
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="97" id="afH-4U-ZQZ"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits" keyboardType="decimalPad"/>
-                            </textField>
+                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" showsUserLocation="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Lj3-cO-2Ds"/>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="Lj3-cO-2Ds" firstAttribute="top" secondItem="3" secondAttribute="top" type="default" id="1Yg-Du-cnQ"/>
-                            <constraint firstAttribute="bottom" secondItem="7Wb-oA-BvL" secondAttribute="bottom" constant="130" id="8OM-eU-bJM"/>
-                            <constraint firstItem="7Wb-oA-BvL" firstAttribute="leading" secondItem="3" secondAttribute="leading" constant="98" id="b4n-wx-A3b"/>
+                            <constraint firstItem="Lj3-cO-2Ds" firstAttribute="bottom" secondItem="3" secondAttribute="bottom" type="default" id="mZa-dA-nPg"/>
                             <constraint firstItem="Lj3-cO-2Ds" firstAttribute="leading" secondItem="3" secondAttribute="leading" type="default" id="rNH-Ym-zDY"/>
                             <constraint firstItem="Lj3-cO-2Ds" firstAttribute="trailing" secondItem="3" secondAttribute="trailing" type="default" id="vMv-Nu-tVg"/>
                         </constraints>
                     </view>
                     <connections>
                         <outlet property="mapView" destination="Lj3-cO-2Ds" id="Ujr-L1-rUk"/>
-                        <outlet property="text" destination="7Wb-oA-BvL" id="yfk-SZ-utZ"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4" sceneMemberID="firstResponder"/>

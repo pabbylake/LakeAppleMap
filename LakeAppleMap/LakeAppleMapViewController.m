@@ -15,21 +15,6 @@
 
 @implementation LakeAppleMapViewController
 @synthesize mapView = _mapView;
-@synthesize text = _text;
-- (void)viewDidLoad
-{
-    [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
-    
-   self.text.delegate = self;
-}
-
-
-- (void)touchesBegan:(NSSet *)touches withEvent:(UIEvent *)event
-{
-    [self.text resignFirstResponder];
-    
-}
 
 -(BOOL)textFieldShouldReturn: (UITextField*)text
 {
@@ -40,9 +25,15 @@
 }
 -(void)viewWillAppear:(BOOL)animated
 {
+    double lat = -33.86;
+    double longi = 151.20;
     CLLocationCoordinate2D zoomLocation;
-     zoomLocation.latitude = -33.86;
-    zoomLocation.longitude =  151.20;
+     zoomLocation.latitude = lat;
+    zoomLocation.longitude =  longi;
+    
+    CLLocationCoordinate2D otherMarkers;
+    otherMarkers.latitude = lat;
+    otherMarkers.longitude = longi;
     
     
     MKCoordinateRegion viewRegion =
@@ -59,12 +50,29 @@
     MKPointAnnotation * marker = [[MKPointAnnotation alloc] init];
     //set the coodinate
     marker.coordinate = zoomLocation;
-    marker.title = @"Test";
-    marker.subtitle = @"small test";
+    marker.title = @"Sample NGO";
+    marker.subtitle = @"NGO Type";
     
     //add the marker
     [self.mapView addAnnotation:marker];
  
+    otherMarkers.latitude = lat+.003;
+    otherMarkers.longitude = longi-.003;
+    
+    MKPointAnnotation * marker2 = [[MKPointAnnotation alloc] init];
+    //set the coodinate
+    marker2.coordinate = otherMarkers;
+
+    [self.mapView addAnnotation:marker2];
+    
+    otherMarkers.latitude = lat-.003;
+    otherMarkers.longitude = longi+.003;
+    
+    MKPointAnnotation * marker3 = [[MKPointAnnotation alloc] init];
+    //set the coodinate
+    marker3.coordinate = otherMarkers;
+    
+    [self.mapView addAnnotation:marker3];
 
     
     //Getting user's current location
